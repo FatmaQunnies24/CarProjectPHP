@@ -1,0 +1,195 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: url('car2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+
+}
+
+
+
+.form-box { 
+    border-radius: 20px;
+    width: 50%; /* Adjust the width as needed */
+    max-width: 400px;
+    height: auto;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+    margin-left: 80%;
+    width: 100%;
+    padding: 10px; /* Reduced padding */
+
+}
+
+h2 {
+    font-size: 1.5em; /* Reduced font size */
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 15px; /* Reduced margin */
+}
+
+.input-container {
+    display: flex;
+    gap: 15px; /* Reduced gap */
+    flex-wrap: wrap; /* Wrap items to the next line if needed */
+}
+
+.input-box {
+    flex: 1;
+    position: relative;
+    margin-bottom: 15px; /* Reduced margin */
+}
+
+.input-box input {
+    width: 100%;
+    padding: 8px; /* Reduced padding */
+    border: none;
+    border-bottom: 2px solid #162938;
+    outline: none;
+    background: transparent;
+    color: #162938;
+    font-size: 0.8em; /* Reduced font size */
+    transition: border-bottom 0.3s;
+}
+
+.input-box input:focus {
+    border-bottom: 2px solid yellow;
+}
+
+.input-box label {
+    position: absolute;
+    top: 8px; /* Adjusted top position */
+    left: 8px; /* Adjusted left position */
+    font-size: 0.8em; /* Reduced font size */
+    color: #ffffff;
+    pointer-events: none;
+    transition: 0.3s;
+}
+
+.input-box input:focus+label,
+.input-box input:not(:placeholder-shown)+label {
+    top: -12px; /* Adjusted top position */
+    font-size: 0.6em; /* Reduced font size */
+    color: rgb(0, 0, 0);
+}
+
+.icon {
+    position: absolute;
+    right: 8px; /* Adjusted right position */
+    top: 8px; /* Adjusted top position */
+    font-size: 1em; /* Adjusted font size */
+    color: #162938;
+}
+
+#btn,#btnn,#myButton {
+    font-size: 1em; /* Adjusted font size */
+    width: 100%;
+    padding: 8px; /* Reduced padding */
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #162938;
+    color: white;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: yellow;
+}
+
+
+
+
+tr:hover {
+    background-color: #C33A00;
+}
+
+h2 {
+    text-align: center;
+    font-size: 28px; /* Reduced font size */
+    color: rgb(0, 0, 0);
+}
+
+/* #res {
+    text-align: left;
+    position: fixed;
+    top: 30%;
+    left:50%;
+    z-index: -522;
+} */
+
+.input-container {
+    margin-top: 15px; /* Reduced margin */
+    /* Adjust the margin as needed */
+    display: flex;
+    justify-content: center;
+    position: center;
+    flex-wrap: wrap; /* Wrap items to the next line if needed */
+}
+
+.input {
+    width: 45%;
+}
+.search-container {
+    display: flex;
+    align-items: center;
+    margin-top: 15px; /* Reduced margin */
+}
+#carName {
+    margin-left: 15px; /* Reduced margin */
+    width: 60%;
+    padding: 8px; /* Reduced padding */
+    border: none;
+    border-bottom: 2px solid #000;
+    outline: none;
+    background: transparent;
+    color: #000;
+    font-size: 0.8em; /* Reduced font size */
+    transition: border-bottom 0.3s;
+}
+ 
+#carNames {
+    margin-left: 15px; /* Reduced margin */
+    width: 60%;
+    padding: 8px; /* Reduced padding */
+    border: none;
+    border-bottom: 2px solid #000;
+    outline: none;
+    background: transparent;
+    color: #000000;
+    font-size: 0.8em; /* Reduced font size */
+    transition: border-bottom 0.3s;
+}
+ 
+tr:hover {background-color:rgb(85, 88, 88);
+}
+
+td,tr{
+    border: 1px solid black; 
+    padding: 8px; 
+   text-align: left; 
+  border-bottom: 1px solid #ddd;
+}
+table {
+  border-collapse: collapse;
+  width: 50%;
+
+  background-color: rgba(0, 0, 0, 0.5);
+  color:white;
+
+
+}
